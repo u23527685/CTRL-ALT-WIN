@@ -4,10 +4,16 @@ public class PlayerMovement : MonoBehaviour
 {
 
     Rigidbody rb;
-    [SerializeField] float movementSpeed = 6f;
+
+    [Header("Movement Settings")]
+    [SerializeField] float movementSpeed = 10f;
     [SerializeField] float jumpForce = 5f;
     [SerializeField] Transform groundCheck;
     [SerializeField] LayerMask ground;
+
+    [Header("Camera Settings")]
+    [SerializeField] Transform camera;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -18,10 +24,22 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float horizontalAxis = Input.GetAxis("Horizontal");
-        float verticalAxis = Input.GetAxis("Vertical");
+        float horizontalAxis = Input.GetAxis("Horizontal") * movementSpeed;
+        float verticalAxis = Input.GetAxis("Vertical") * movementSpeed;
 
-        rb.linearVelocity = new Vector3(horizontalAxis * movementSpeed, rb.linearVelocity.y, verticalAxis * movementSpeed);
+        Vector3 camForward =camera.forward;
+        Vector3 camRight = camera.right;
+
+        camForward.y = 0;
+        camRight.y = 0;
+
+        Vector3 forwardRelative= verticalAxis * camForward;
+        Vector3 rightRelative = horizontalAxis * camRight;
+
+        Vector3 moveDir = forwardRelative + rightRelative;
+
+
+        rb.linearVelocity = new Vector3(moveDir.x, rb.linearVelocity.y, moveDir.z );
 
         if (Input.GetButtonDown("Jump") && IsGrounded())
         {
