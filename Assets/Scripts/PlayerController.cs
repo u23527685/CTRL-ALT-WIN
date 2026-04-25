@@ -81,6 +81,14 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    public void Oninteract(InputAction.CallbackContext context)
+    {
+        if (context.performed && controller.isGrounded)
+        {
+            Debug.Log("Interact clicked");
+        }
+    }
+
     void Update()
     {
         // 1. Get Camera Directions
