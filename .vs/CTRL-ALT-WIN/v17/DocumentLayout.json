@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Okail\\Unity Projects\\CTRL_ALT_Win\\CTRL-ALT-WIN\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AC9ADD6A-37A8-F17A-468A-2DE1A2D6602F}|Assembly-CSharp.csproj|c:\\users\\okail\\unity projects\\ctrl_alt_win\\ctrl-alt-win\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC9ADD6A-37A8-F17A-468A-2DE1A2D6602F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC9ADD6A-37A8-F17A-468A-2DE1A2D6602F}|Assembly-CSharp.csproj|c:\\users\\okail\\unity projects\\ctrl_alt_win\\ctrl-alt-win\\assets\\scripts\\doorscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC9ADD6A-37A8-F17A-468A-2DE1A2D6602F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\doorscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC9ADD6A-37A8-F17A-468A-2DE1A2D6602F}|Assembly-CSharp.csproj|C:\\Users\\Okail\\Unity Projects\\CTRL_ALT_Win\\CTRL-ALT-WIN\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC9ADD6A-37A8-F17A-468A-2DE1A2D6602F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC9ADD6A-37A8-F17A-468A-2DE1A2D6602F}|Assembly-CSharp.csproj|C:\\Users\\Okail\\Unity Projects\\CTRL_ALT_Win\\CTRL-ALT-WIN\\assets\\scripts\\lighting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC9ADD6A-37A8-F17A-468A-2DE1A2D6602F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lighting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC9ADD6A-37A8-F17A-468A-2DE1A2D6602F}|Assembly-CSharp.csproj|C:\\Users\\Okail\\Unity Projects\\CTRL_ALT_Win\\CTRL-ALT-WIN\\assets\\scripts\\charging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC9ADD6A-37A8-F17A-468A-2DE1A2D6602F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\charging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC9ADD6A-37A8-F17A-468A-2DE1A2D6602F}|Assembly-CSharp.csproj|c:\\users\\okail\\unity projects\\ctrl_alt_win\\ctrl-alt-win\\assets\\scripts\\statemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC9ADD6A-37A8-F17A-468A-2DE1A2D6602F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\statemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC9ADD6A-37A8-F17A-468A-2DE1A2D6602F}|Assembly-CSharp.csproj|C:\\Users\\Okail\\Unity Projects\\CTRL_ALT_Win\\CTRL-ALT-WIN\\assets\\scripts\\yellowlightlighting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC9ADD6A-37A8-F17A-468A-2DE1A2D6602F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\yellowlightlighting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +39,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PlayerMovement.cs",
-              "DocumentMoniker": "C:\\Users\\Okail\\Unity Projects\\CTRL_ALT_Win\\CTRL-ALT-WIN\\Assets\\Scripts\\PlayerMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
-              "ToolTip": "C:\\Users\\Okail\\Unity Projects\\CTRL_ALT_Win\\CTRL-ALT-WIN\\Assets\\Scripts\\PlayerMovement.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Title": "DoorScript.cs",
+              "DocumentMoniker": "C:\\Users\\Okail\\Unity Projects\\CTRL_ALT_Win\\CTRL-ALT-WIN\\Assets\\Scripts\\DoorScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DoorScript.cs",
+              "ToolTip": "C:\\Users\\Okail\\Unity Projects\\CTRL_ALT_Win\\CTRL-ALT-WIN\\Assets\\Scripts\\DoorScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DoorScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T09:12:55.465Z",
+              "WhenOpened": "2026-04-25T17:38:45.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Charging.cs",
+              "DocumentMoniker": "C:\\Users\\Okail\\Unity Projects\\CTRL_ALT_Win\\CTRL-ALT-WIN\\Assets\\Scripts\\Charging.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Charging.cs",
+              "ToolTip": "C:\\Users\\Okail\\Unity Projects\\CTRL_ALT_Win\\CTRL-ALT-WIN\\Assets\\Scripts\\Charging.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Charging.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T15:11:51.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StateManager.cs",
+              "DocumentMoniker": "C:\\Users\\Okail\\Unity Projects\\CTRL_ALT_Win\\CTRL-ALT-WIN\\Assets\\Scripts\\StateManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\StateManager.cs",
+              "ToolTip": "C:\\Users\\Okail\\Unity Projects\\CTRL_ALT_Win\\CTRL-ALT-WIN\\Assets\\Scripts\\StateManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\StateManager.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwFAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T14:51:22.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "yellowLightLighting.cs",
+              "DocumentMoniker": "C:\\Users\\Okail\\Unity Projects\\CTRL_ALT_Win\\CTRL-ALT-WIN\\Assets\\Scripts\\yellowLightLighting.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\yellowLightLighting.cs",
+              "ToolTip": "C:\\Users\\Okail\\Unity Projects\\CTRL_ALT_Win\\CTRL-ALT-WIN\\Assets\\Scripts\\yellowLightLighting.cs",
+              "RelativeToolTip": "Assets\\Scripts\\yellowLightLighting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T13:15:22.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\Okail\\Unity Projects\\CTRL_ALT_Win\\CTRL-ALT-WIN\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\Okail\\Unity Projects\\CTRL_ALT_Win\\CTRL-ALT-WIN\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAkwDEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T11:21:03.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Lighting.cs",
+              "DocumentMoniker": "C:\\Users\\Okail\\Unity Projects\\CTRL_ALT_Win\\CTRL-ALT-WIN\\Assets\\Scripts\\Lighting.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Lighting.cs",
+              "ToolTip": "C:\\Users\\Okail\\Unity Projects\\CTRL_ALT_Win\\CTRL-ALT-WIN\\Assets\\Scripts\\Lighting.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Lighting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T11:06:46.928Z",
               "EditorCaption": ""
             }
           ]

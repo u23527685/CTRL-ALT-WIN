@@ -12,7 +12,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] LayerMask ground;
 
     [Header("Camera Settings")]
-    [SerializeField] Transform camera;
+    [SerializeField] new Transform camera;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
