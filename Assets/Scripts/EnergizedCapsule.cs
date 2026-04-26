@@ -1,32 +1,21 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-public class EnergizedCapsule : MonoBehaviour
+public class EnergizedCapsule : EnergyNode
 {
-    [SerializeField] Light light;
     public UnityEvent objectActionStart;
     public UnityEvent objectActionStop;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        light = GetComponentInChildren<Light>();
-    }
 
-    // Update is called once per frame
-    void Update()
+    // We override the base methods to add the UnityEvents
+    public override void ReceiveEnergy()
     {
-
-    }
-
-    public void LightOff()
-    {
-        light.enabled = false;
-        objectActionStop?.Invoke();
-    }
-
-    public void LightOn()
-    {
-        light.enabled = true;
+        base.ReceiveEnergy(); // This calls the light & energy logic from the Base Class
         objectActionStart?.Invoke();
+    }
+
+    public override void DrainEnergy()
+    {
+        base.DrainEnergy();
+        objectActionStop?.Invoke();
     }
 }

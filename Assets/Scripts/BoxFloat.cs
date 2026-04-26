@@ -1,32 +1,29 @@
 using UnityEngine;
 
-public class BoxFloat : MonoBehaviour
+public class BoxFloat : EnergyNode
 {
     private Rigidbody rb;
-    private Vector3 position;
-    private bool floatBool;
     [SerializeField] Transform floatPosition;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    private bool floatBool;
+
+    protected override void Start()
     {
-        rb= GetComponent<Rigidbody>();
-        position=transform.position;
+        base.Start(); // Run the Base Class setup first!
+        rb = GetComponent<Rigidbody>();
         floatBool = false;
     }
 
-    // Update is called once per frame
-    void Update()
+    public override void ReceiveEnergy() // Replaces FloatObj()
     {
-    }
-
-    public void FloatObj()
-    {
+        base.ReceiveEnergy();
         floatBool = true;
         rb.useGravity = false;
+        rb.linearVelocity = Vector3.zero; // Stop momentum before floating
     }
 
-    public void Drop()
+    public override void DrainEnergy() // Replaces Drop()
     {
+        base.DrainEnergy();
         floatBool = false;
         rb.useGravity = true;
     }
@@ -35,8 +32,9 @@ public class BoxFloat : MonoBehaviour
     {
         if (floatBool && floatPosition != null)
         {
-            float lerpSpeed = 10f;
-            Vector3 newPosition= Vector3.Lerp(transform.position, floatPosition.position, Time.deltaTime* lerpSpeed);
+            float lerpSpeed = 5f;
+            // Swapped to fixedDeltaTime and rb.position for smooth physics
+            Vector3 newPosition = Vector3.Lerp(rb.position, floatPosition.position, Time.fixedDeltaTime * lerpSpeed);
             rb.MovePosition(newPosition);
         }
     }

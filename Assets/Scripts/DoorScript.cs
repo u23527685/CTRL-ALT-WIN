@@ -1,20 +1,20 @@
-using Unity.VisualScripting;
 using UnityEngine;
 
-public class DoorScript : MonoBehaviour
+public class DoorScript : EnergyNode
 {
     [SerializeField] Transform door;
     [SerializeField] float moveSpeed = 3f;
-
     private float targetY;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        GameObject doorObject = GameObject.FindWithTag("Door");
 
+    protected override void Start()
+    {
+        base.Start(); // Run the Base Class setup first!
+
+        GameObject doorObject = GameObject.FindWithTag("Door");
         if (doorObject != null)
         {
             door = doorObject.transform;
+            targetY = door.localPosition.y; // Set starting height
         }
         else
         {
@@ -22,28 +22,22 @@ public class DoorScript : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (door == null) return;
-
-        // 1. Create a Vector3 representing the target local position
         Vector3 targetPosition = new Vector3(door.localPosition.x, targetY, door.localPosition.z);
-
-        // 2. Move smoothly toward that position
         door.localPosition = Vector3.MoveTowards(door.localPosition, targetPosition, moveSpeed * Time.deltaTime);
     }
 
-    public void DoorUp()
+    public override void ReceiveEnergy() // Replaces DoorUp()
     {
+        base.ReceiveEnergy();
         targetY = 4f;
     }
 
-    public void DoorDown()
+    public override void DrainEnergy() // Replaces DoorDown()
     {
+        base.DrainEnergy();
         targetY = 0f;
     }
-
-
-
 }

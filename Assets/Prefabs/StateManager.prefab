@@ -80,5 +80,4 @@ MonoBehaviour:
   playerReleasing: 0
   playerReleased: 0
   player: {fileID: 0}
-  groundCheck: {fileID: 0}
-  chargeBase: {fileID: 0}
+  currentEnergyNode: {fileID: 0}

@@ -4,6 +4,10 @@ using UnityEngine.Events;
 
 public class PlayerController : MonoBehaviour
 {
+
+    public AudioClip clip;
+    public float blueEnergy = 0;
+    public float YellowEnergy = 0;
     public UnityEvent startRelease;
     public UnityEvent Release;
     public UnityEvent endRelease;

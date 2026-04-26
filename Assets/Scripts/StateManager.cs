@@ -12,10 +12,9 @@ public class StateManager : MonoBehaviour
     public bool playerReleasing = false;
     public bool playerReleased = false;
 
-    [Header("Game Objects")]
-    [SerializeField] Transform player;
-    [SerializeField] Transform groundCheck;
-    [SerializeField] Transform chargeBase;
+    [Header("Game Objects & Scripts")]
+    [SerializeField] PlayerController player; // Reference to the Player
+    [SerializeField] EnergyNode currentEnergyNode; // Reference to the object's script
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -36,9 +35,21 @@ public class StateManager : MonoBehaviour
     public void Absorb()
     {
         playerAbsorbed = true;
-        if (playerOnChargeBase)
+        if (playerOnChargeBase && currentEnergyNode != null)
         {
-            onAbsorb?.Invoke();
+            if (currentEnergyNode.energized)
+            {
+                Debug.Log("Absorbing Energy!");
+                if (currentEnergyNode.blueEnergy)
+                    player.blueEnergy += currentEnergyNode.energygive;
+                else
+                    player.YellowEnergy += currentEnergyNode.energygive;
+                onAbsorb?.Invoke();
+            }
+            else
+            {
+                Debug.Log("This object has no energy to absorb.");
+            }
         }
     }
 
@@ -57,9 +68,26 @@ public class StateManager : MonoBehaviour
     public void Release()
     {
         playerReleased = true;
-        if (playerOnChargeBase)
+        if (playerOnChargeBase && currentEnergyNode != null)
         {
-            onRelease?.Invoke();
+            float currentEnergy;
+            if (currentEnergyNode.blueEnergy)
+                currentEnergy = player.blueEnergy;
+            else
+                currentEnergy = player.YellowEnergy;    
+            if (currentEnergy >= currentEnergyNode.neededEnergy)
+            {
+                Debug.Log("Releasing Energy!");
+                if (currentEnergyNode.blueEnergy)
+                    player.blueEnergy -= currentEnergyNode.neededEnergy;
+                else
+                    player.YellowEnergy -= currentEnergyNode.neededEnergy;
+                onRelease?.Invoke();
+            }
+            else
+            {
+                Debug.Log("Not enough energy to release!");
+            }
         }
     }
 
