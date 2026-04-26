@@ -5,7 +5,7 @@ using UnityEngine.Events;
 public class PlayerController : MonoBehaviour
 {
 
-    public AudioClip bgClip,absorbClip;
+    public AudioClip bgClip,absorbClip, releaseClip;
     public AudioSource src;
     public float blueEnergy = 0;
     public float YellowEnergy = 0;
@@ -82,6 +82,10 @@ public class PlayerController : MonoBehaviour
     {
         if (context.started)
         {
+            if (releaseClip != null)
+            {
+                src.PlayOneShot(releaseClip);
+            }
             startRelease?.Invoke();
         }
         else if (context.performed)
