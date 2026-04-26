@@ -4,22 +4,19 @@ public class BoxFloat : MonoBehaviour
 {
     private Rigidbody rb;
     private Vector3 position;
-    private bool floatBool=false;
+    private bool floatBool;
     [SerializeField] Transform floatPosition;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         rb= GetComponent<Rigidbody>();
         position=transform.position;
+        floatBool = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (floatBool)
-        {
-            FixedUpdate();
-        }
     }
 
     public void FloatObj()
@@ -36,7 +33,7 @@ public class BoxFloat : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (floatPosition != null)
+        if (floatBool && floatPosition != null)
         {
             float lerpSpeed = 10f;
             Vector3 newPosition= Vector3.Lerp(transform.position, floatPosition.position, Time.deltaTime* lerpSpeed);

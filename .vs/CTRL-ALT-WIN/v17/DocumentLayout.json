@@ -3,11 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\Okail\\Unity Projects\\CTRL_ALT_Win\\CTRL-ALT-WIN\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AC9ADD6A-37A8-F17A-468A-2DE1A2D6602F}|Assembly-CSharp.csproj|c:\\users\\okail\\unity projects\\ctrl_alt_win\\ctrl-alt-win\\assets\\scripts\\boxfloat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AC9ADD6A-37A8-F17A-468A-2DE1A2D6602F}|Assembly-CSharp.csproj|c:\\users\\okail\\unity projects\\ctrl_alt_win\\ctrl-alt-win\\assets\\scripts\\capsulerotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC9ADD6A-37A8-F17A-468A-2DE1A2D6602F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\capsulerotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC9ADD6A-37A8-F17A-468A-2DE1A2D6602F}|Assembly-CSharp.csproj|c:\\users\\okail\\unity projects\\ctrl_alt_win\\ctrl-alt-win\\assets\\scripts\\energizedcapsule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC9ADD6A-37A8-F17A-468A-2DE1A2D6602F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\energizedcapsule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC9ADD6A-37A8-F17A-468A-2DE1A2D6602F}|Assembly-CSharp.csproj|C:\\Users\\Okail\\Unity Projects\\CTRL_ALT_Win\\CTRL-ALT-WIN\\assets\\scripts\\yellowlightlighting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC9ADD6A-37A8-F17A-468A-2DE1A2D6602F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\yellowlightlighting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC9ADD6A-37A8-F17A-468A-2DE1A2D6602F}|Assembly-CSharp.csproj|C:\\Users\\Okail\\Unity Projects\\CTRL_ALT_Win\\CTRL-ALT-WIN\\assets\\scripts\\boxfloat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC9ADD6A-37A8-F17A-468A-2DE1A2D6602F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\boxfloat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC9ADD6A-37A8-F17A-468A-2DE1A2D6602F}|Assembly-CSharp.csproj|c:\\users\\okail\\unity projects\\ctrl_alt_win\\ctrl-alt-win\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AC9ADD6A-37A8-F17A-468A-2DE1A2D6602F}|Assembly-CSharp.csproj|C:\\Users\\Okail\\Unity Projects\\CTRL_ALT_Win\\CTRL-ALT-WIN\\assets\\scripts\\statemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC9ADD6A-37A8-F17A-468A-2DE1A2D6602F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\statemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC9ADD6A-37A8-F17A-468A-2DE1A2D6602F}|Assembly-CSharp.csproj|C:\\Users\\Okail\\Unity Projects\\CTRL_ALT_Win\\CTRL-ALT-WIN\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC9ADD6A-37A8-F17A-468A-2DE1A2D6602F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -21,14 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{AC9ADD6A-37A8-F17A-468A-2DE1A2D6602F}|Assembly-CSharp.csproj|C:\\Users\\Okail\\Unity Projects\\CTRL_ALT_Win\\CTRL-ALT-WIN\\assets\\scripts\\lighting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC9ADD6A-37A8-F17A-468A-2DE1A2D6602F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lighting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC9ADD6A-37A8-F17A-468A-2DE1A2D6602F}|Assembly-CSharp.csproj|C:\\Users\\Okail\\Unity Projects\\CTRL_ALT_Win\\CTRL-ALT-WIN\\assets\\scripts\\statemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC9ADD6A-37A8-F17A-468A-2DE1A2D6602F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\statemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC9ADD6A-37A8-F17A-468A-2DE1A2D6602F}|Assembly-CSharp.csproj|C:\\Users\\Okail\\Unity Projects\\CTRL_ALT_Win\\CTRL-ALT-WIN\\assets\\scripts\\yellowlightlighting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC9ADD6A-37A8-F17A-468A-2DE1A2D6602F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\yellowlightlighting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,19 +51,44 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BoxFloat.cs",
-              "DocumentMoniker": "C:\\Users\\Okail\\Unity Projects\\CTRL_ALT_Win\\CTRL-ALT-WIN\\Assets\\Scripts\\BoxFloat.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\BoxFloat.cs",
-              "ToolTip": "C:\\Users\\Okail\\Unity Projects\\CTRL_ALT_Win\\CTRL-ALT-WIN\\Assets\\Scripts\\BoxFloat.cs",
-              "RelativeToolTip": "Assets\\Scripts\\BoxFloat.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Title": "CapsuleRotation.cs",
+              "DocumentMoniker": "C:\\Users\\Okail\\Unity Projects\\CTRL_ALT_Win\\CTRL-ALT-WIN\\Assets\\Scripts\\CapsuleRotation.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CapsuleRotation.cs",
+              "ToolTip": "C:\\Users\\Okail\\Unity Projects\\CTRL_ALT_Win\\CTRL-ALT-WIN\\Assets\\Scripts\\CapsuleRotation.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CapsuleRotation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T20:11:09.908Z",
+              "WhenOpened": "2026-04-26T11:40:57.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EnergizedCapsule.cs",
+              "DocumentMoniker": "C:\\Users\\Okail\\Unity Projects\\CTRL_ALT_Win\\CTRL-ALT-WIN\\Assets\\Scripts\\EnergizedCapsule.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnergizedCapsule.cs",
+              "ToolTip": "C:\\Users\\Okail\\Unity Projects\\CTRL_ALT_Win\\CTRL-ALT-WIN\\Assets\\Scripts\\EnergizedCapsule.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnergizedCapsule.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAmwBUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T11:35:38.884Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "BoxFloat.cs",
+              "DocumentMoniker": "C:\\Users\\Okail\\Unity Projects\\CTRL_ALT_Win\\CTRL-ALT-WIN\\Assets\\Scripts\\BoxFloat.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BoxFloat.cs",
+              "ToolTip": "C:\\Users\\Okail\\Unity Projects\\CTRL_ALT_Win\\CTRL-ALT-WIN\\Assets\\Scripts\\BoxFloat.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BoxFloat.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAABEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T20:11:09.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "DoorScript.cs",
               "DocumentMoniker": "C:\\Users\\Okail\\Unity Projects\\CTRL_ALT_Win\\CTRL-ALT-WIN\\Assets\\Scripts\\DoorScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DoorScript.cs",
@@ -67,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Charging.cs",
               "DocumentMoniker": "C:\\Users\\Okail\\Unity Projects\\CTRL_ALT_Win\\CTRL-ALT-WIN\\Assets\\Scripts\\Charging.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Charging.cs",
@@ -79,19 +112,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "StateManager.cs",
               "DocumentMoniker": "C:\\Users\\Okail\\Unity Projects\\CTRL_ALT_Win\\CTRL-ALT-WIN\\Assets\\Scripts\\StateManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\StateManager.cs",
               "ToolTip": "C:\\Users\\Okail\\Unity Projects\\CTRL_ALT_Win\\CTRL-ALT-WIN\\Assets\\Scripts\\StateManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\StateManager.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAkwFAAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-25T14:51:22.09Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "yellowLightLighting.cs",
               "DocumentMoniker": "C:\\Users\\Okail\\Unity Projects\\CTRL_ALT_Win\\CTRL-ALT-WIN\\Assets\\Scripts\\yellowLightLighting.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\yellowLightLighting.cs",
@@ -103,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\Okail\\Unity Projects\\CTRL_ALT_Win\\CTRL-ALT-WIN\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
@@ -111,12 +144,11 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
               "ViewState": "AgIAAEAAAAAAAAAAAAAkwFkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T11:21:03.7Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T11:21:03.7Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Lighting.cs",
               "DocumentMoniker": "C:\\Users\\Okail\\Unity Projects\\CTRL_ALT_Win\\CTRL-ALT-WIN\\Assets\\Scripts\\Lighting.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Lighting.cs",
