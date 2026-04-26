@@ -5,7 +5,8 @@ using UnityEngine.Events;
 public class PlayerController : MonoBehaviour
 {
 
-    public AudioClip clip;
+    public AudioClip bgClip,absorbClip;
+    public AudioSource src;
     public float blueEnergy = 0;
     public float YellowEnergy = 0;
     public UnityEvent startRelease;
@@ -19,6 +20,7 @@ public class PlayerController : MonoBehaviour
     [Header("Movement Settings")]
     [SerializeField] private float speed = 5f;
     [SerializeField] private float jumpHeight = 3f;
+    [SerializeField] private float rotationSpeed = 10f;
     [SerializeField] private float gravity = -9.8f;
 
     [Header("Camera Settings")]
@@ -30,6 +32,9 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
+        src.clip= bgClip;
+        src.loop = true;
+        src.Play();
         controller = GetComponent<CharacterController>();
 
         // Safety check to ensure a camera is assigned
@@ -57,6 +62,10 @@ public class PlayerController : MonoBehaviour
     {
         if (context.started)
         {
+            if (absorbClip != null)
+            {
+                src.PlayOneShot(absorbClip);
+            }
             startAbsorb?.Invoke();
         }
         else if (context.performed)
@@ -110,6 +119,18 @@ public class PlayerController : MonoBehaviour
         // 4. Calculate relative movement direction
         // moveInput.y is "Forward/Back" (Vertical), moveInput.x is "Left/Right" (Horizontal)
         Vector3 moveDirection = (camForward * moveInput.y) + (camRight * moveInput.x);
+
+        // --- NEW ROTATION LOGIC ---
+        // Only try to rotate if the player is actually pushing a movement key/stick
+        if (moveDirection != Vector3.zero)
+        {
+            // Calculate the rotation needed to look in the move direction
+            Quaternion targetRotation = Quaternion.LookRotation(moveDirection);
+
+            // Smoothly rotate the player towards the target rotation
+            transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
+        }
+        // --------------------------
 
         // 5. Apply Movement
         controller.Move(moveDirection * speed * Time.deltaTime);
